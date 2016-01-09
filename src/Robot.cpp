@@ -108,7 +108,7 @@ private:
 		//Wait(6); //Full Field
 		lDrive->Set(0);
 		rDrive->Set(0);
-		/*Wait(1);
+		//Wait(1);
 		lDrive->Set(0.15);
 		rDrive->Set(0.15);*//*
 		rake->Set(-0.2);
@@ -118,7 +118,8 @@ private:
 		//myRobot.Drive(0.0, 0.0);
 		//rake->Set(0.25);
 		//Wait(1);
-		//rake->Set(0);*/
+		//rake->Set(0);
+		 * */
 	}
 
 	void AutonomousPeriodic()
